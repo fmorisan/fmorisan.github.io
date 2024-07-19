@@ -1,0 +1,43 @@
+body {
+  font-family: monospace;
+  color: lightgreen;
+  background-color: black;
+  text-align: center;
+  align: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.3em;
+}
+
+a {
+  color: lightgreen;
+}
+
+@media (max-width: 480px) {
+  pre {
+    font-size: .3em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 810px) {
+  pre {
+    font-size: .5em;
+  }
+}
+
+@media (min-width: 811px) and (max-width: 1080px) {
+  pre {
+    font-size: .9em;
+  }
+}
+
+.left-align {
+  text-align: left;
+  align: left;
+  justify-content: start;
+}
+
+hr {
+  border-top: 1px solid lightgreen;
+}
